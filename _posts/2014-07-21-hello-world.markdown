@@ -11,4 +11,4 @@ Já pensou vir trabalhar de bermuda, tomar um cafezinho com a gente e aproveitar
 
 Focados no bem estar das pessoas e guiados pela ética, incentivamos novas ideias, troca de conhecimento, autodesenvolvimento, colaboração, transparência e respeito mútuo. 
 
-Aqui, buscamos crescer juntos de forma consciente para atingir nossa missão, estamos sempre conectados, atentos com o cliente e com o mercado, somos pilhados e buscamos sempre novidades para atender melhor os nossos clientes, somo rápidos e desafiados diariamente. Quer trabalhar com metodologias inovadoras?  Aprender coisas novas todos os dias?   #vempraconductor 
+Aqui, buscamos crescer juntos de forma consciente para atingir nossa missão, estamos sempre conectados, atentos com o cliente e com o mercado, somos pilhados e buscamos sempre novidades para atender melhor os nossos clientes, somos rápidos e desafiados diariamente. Quer trabalhar com metodologias inovadoras?  Aprender coisas novas todos os dias?   #vempraconductor 
