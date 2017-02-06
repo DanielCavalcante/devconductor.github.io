@@ -2,29 +2,17 @@
     background-image: url($logos-sprite);
     background-repeat: no-repeat;
     &.logo-dark {
-    	background-position: 0 -92px;
+    	background-position: 0 -65px;
     }
     &.logo-gray {
-    	background-position: 0 -88px;
+    	background-position: 0 -65px;
 	}
 	&.logo-light {
-	    background-position: 0 0px;
+	    background-position: 0 -65px;
 	}
 }
 .logo-conductor-branca {
-    /* display: block; */
-    /* -webkit-transform: translateY(20px); */
-    /* transform: translateY(20px); */
-    /* -webkit-transition: all 0.3s; */
-    /* transition: all 0.3s; */
-    /* float: right; */
-    /* width: 305px; */
-    /* height: 44px; */
-    /* margin-right: 20px; */
-    /* margin-top: 7px; */
-    /* -webkit-transform: scale(0.7); */
     transform: scale(0.7);
-    /* vertical-align: middle; */
 }
 
 .logo-header-conductor {

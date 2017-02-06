@@ -40,7 +40,7 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
         display: inline-block;
         float: left;
         width: 305px;
-        height: 44px;
+        height: 66px;
         margin-right: 20px;
         margin-top: 7px;
         transform: scale(.7);
@@ -177,4 +177,15 @@ nav {
     position: relative;
     bottom: 26px;
     margin-top: 75px !important;
+}
+
+.logo-img {
+    display: inline-block;
+    float: left;
+    /* width: 305px; */
+    height: 80px;
+    margin-right: 20px;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    vertical-align: middle;
 }
