@@ -230,7 +230,7 @@ hackathonTitle: "Hackathon"
 enableHackathon: true
 
 # Hackathon About Block
-aboutHackathonTitle: "Inscrições a partir do próximo dia 08/02"
+aboutHackathonTitle: "Inscrições Abertas!"
 aboutHackathonSubTitle: "Vagas limitadas! <div class='hackathon-row col-md-12'><br/><a href='/assets/hackathon_tex.pdf' class='btn btn-primary' style='margin-right: 10px' target='_blank'>Regulamento</a><a href='https://www.sympla.com.br/1-hackathon-conductor---tech-experience-2017-by-conductor__115424' class='btn btn-primary' target='_blank'>Inscreva-se</a></div> "
 
 hackathonRows:
