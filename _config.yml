@@ -54,8 +54,8 @@ navigationLinks:
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Hackathon"}
 rightNavigationButtons:
- - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
- - {link: "/hackathon", text: "Hackathon"}
+ - {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
+ - {link: "/hackathon", text: "HACKATHON"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
