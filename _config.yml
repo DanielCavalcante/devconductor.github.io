@@ -55,6 +55,7 @@ bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Hackathon"}
 rightNavigationButtons:
  - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
+ - {link: "/hackathon", text: "Hackathon"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
@@ -63,8 +64,8 @@ eventDate: "08, 18 e 19 de Fevereiro de 2017"
 typeoutTextValues: '"João Pessoa", "Palestras", "Hackathon", "40h de capacitação", "5K+ em premiações", "Cafeína", "Pizza", "Energético", "Network", "Cloud Computing", ".NET Core"'
 typeoutFallback: "Hackathon"
 heroButtons:
- - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
- #- {permalink: "/hackathon", text: "Hackathon"}   
+ - {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
+ - {permalink: "/hackathon", text: "INSCRIÇÃO HACKATHON"}   
 
 # About Block
 aboutTitle: "Sobre o TECH Experience 2017"
@@ -229,8 +230,8 @@ hackathonTitle: "Hackathon"
 enableHackathon: true
 
 # Hackathon About Block
-aboutHackathonTitle: "Inscrições Abertas"
-aboutHackathonSubTitle: "Vagas limitadas!<div class='hackathon-row col-md-12'><br/><a href='https://www.sympla.com.br/1-hackathon-conductor---tech-experience-2017-by-conductor__115424' class='btn btn-primary' target='_blank'>Inscreva-se</a></div>"
+aboutHackathonTitle: "Inscrições a partir do próximo dia 08/02"
+aboutHackathonSubTitle: "Vagas limitadas! <div class='hackathon-row col-md-12'><br/><a href='/assets/hackathon_tex.pdf' class='btn btn-primary' style='margin-right: 10px' target='_blank'>Regulamento</a><a href='https://www.sympla.com.br/1-hackathon-conductor---tech-experience-2017-by-conductor__115424' class='btn btn-primary' target='_blank'>Inscreva-se</a></div> "
 
 hackathonRows:
  - {title: "Como saber se você está “nos trinques” para o Hackaton?", details: "
@@ -243,68 +244,22 @@ hackathonRows:
   <li>Quer conhecer uma empresa de tecnologia com uma cultura transformadora?</li>
   <li>Tem uma máquina pessoal pronta, com tudo que você precisa e gosta de usar, para que você consiga dar o seu show de desenvolvimento de software?</li>
 </ul>"}
-
- - {title: "Regulamento", details: "
- <ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
- </ol>
- "}
- - {title: "Critérios de avaliação", details: "
- <ol>
-  <li>
-    Qualidade de código -  30 pontos 
-  </li>
-  <li>
-    Aplicabilidade - 30 pontos 
-    <ol>
-      <li>Originalidade</li>
-      <li>Utilidade</li>
-      <li>Aplicação para o Mercado</li>
-    </ol>
-  </li>
-  <li>
-    Design - 10 pontos 
-    <ol>
-      <li>Usabilidade</li>
-      <li>Beleza</li>
-    </ol> 
-  </li>
-  <li>
-    Execução - 20 pontos 
-    <ol>
-      <li>Bugs</li>
-    </ol> 
-      <li>Aderência a proposta</li>
-  </li>
-  <li>Apresentação - 10 pontos</li>
-</ol>
- "}
- - {title: "Regulamento", details: "
- <ol>
-  <li></li>
-  <li></li>
-  <li></li>
- </ol>
- "}
- - {title: "Programação", details: "
-    <a href='http://tex.conductor.com.br/schedule/'>Acesse aqui a programação completa</a>
-"}
- - {title: "Equipe", details: "Será permitido equipes de no máximo 03 pessoas"}
- - {title: "Apresentação Final", details: "
- <ol>
-  <li>Cada equipe deverá ao final do útlimo dia do hackathon fazer uma apresentação com no máximo 5 minutos</li>
-  <li>A apresentação será livre desde que seja demonstrado o funcionamento da aplicação desenvolvida</li>
- </ol>
-• 
+ - {title: "O que você precisa fazer para se inscrever?", details: "
+ <p>Não se aperreie não que a gente explica!</p>
+ <ul>
+  <li>Monte sua equipe ou “euquipe”!</li>
+  <li>Você pode participar individualmente ou em equipe. Se a escolha for em equipe, essa deve ser composta por, no máximo, 3 pessoas e deve ser montada antes do evento e será formalizada no momento da inscrição.</li>
+  <li>Inscreva-se no evento! Se for em uma equipe, cada um deve realizar sua inscrição.</li>
+ </ul>
+ </br>
+ <p>Eita! E como será o Hackaton? </p>
+<ul>
+  <li>Um tema será lançado e as equipes inscritas deverão formular uma ideia e, literalmente, desenvolvê-la.</li>
+  <li>A tecnologia utilizada?  Vocês escolhem!</li>
+  <li>Vocês poderão desenvolver um produto desktop, mobile ou web... vocês escolhem!</li>
+  <li>Ao final do evento, a equipe deverá apresentar o projeto para os jurados. Vocês terão 5 minutos para apresentar o projeto e os jurados terão 5 minutos para questionamentos. </li>
+  <li>Caprichem no produto! Cresçam na apresentação! Conquistem os jurados!</li>
+</ul>
  "}
 
 # Hackathon Judges Block
