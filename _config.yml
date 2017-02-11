@@ -54,8 +54,8 @@ navigationLinks:
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Hackathon"}
 rightNavigationButtons:
- - {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {link: "/hackathon", text: "HACKATHON"}
+ #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
+ - {link: "/hackathon", text: "INSCRIÇÃO HACKATHON"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
@@ -64,7 +64,7 @@ eventDate: "08, 18 e 19 de Fevereiro de 2017"
 typeoutTextValues: '"João Pessoa", "Palestras", "Hackathon", "40h de capacitação", "5K+ em premiações", "Cafeína", "Pizza", "Energético", "Network", "Cloud Computing", ".NET Core"'
 typeoutFallback: "Hackathon"
 heroButtons:
- - {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
+ #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
  - {permalink: "/hackathon", text: "INSCRIÇÃO HACKATHON"}   
 
 # About Block
