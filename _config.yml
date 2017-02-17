@@ -53,7 +53,7 @@ bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Hackathon"}
 rightNavigationButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {link: "/hackathon", text: "INSCRIÇÃO HACKATHON"}
+ - {link: "/aovivo", text: "ASSISTA AO VIVO"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
@@ -63,7 +63,7 @@ typeoutTextValues: '"João Pessoa", "Palestras", "Hackathon", "40h de capacitaç
 typeoutFallback: "Hackathon"
 heroButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {permalink: "/hackathon", text: "INSCRIÇÃO HACKATHON"}   
+ - {permalink: "/aovivo", text: "ASSISTA AO VIVO"}   
 
 # About Block
 aboutTitle: "Sobre o TECH Experience 2017"
@@ -169,7 +169,7 @@ footerBlocks:
 # Blog
 blogTitle: "Últimas Novidades"
 blogCommentsEnabled: true
-discusShortName: "techexperienceconductor"
+discusShortName: "tex-conductor-com-br"
 
 # Speakers List Block
 showSessions: true

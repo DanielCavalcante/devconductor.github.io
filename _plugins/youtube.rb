@@ -20,11 +20,7 @@ class YouTube < Liquid::Tag
   end
 
   def render(context)
-    # "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}\" frameborder=\"0\"allowfullscreen></iframe>"
-    "<iframe class=\"embed-responsive-item\"  src=\"http://www.youtube.com/embed/#{@id}?color=white&theme=light&controls=2\" allowfullscreen=\"allowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" msallowfullscreen=\"msallowfullscreen\" oallowfullscreen=\"oallowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\"></iframe>"
-
-    #"<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}?color=white&theme=light\"></iframe>"
-    #"<iframe width="860" height="420" src=\"http://www.youtube.com/embed/#{@id}?color=white&theme=light\"></iframe>"
+    "<iframe class=\"embed-responsive-item\"  src=\"http://www.youtube.com/embed/IRVQU9y2Yps?color=white&theme=light&controls=2\" allowfullscreen=\"allowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" msallowfullscreen=\"msallowfullscreen\" oallowfullscreen=\"oallowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\"></iframe>"
   end
 
   Liquid::Template.register_tag "youtube", self
