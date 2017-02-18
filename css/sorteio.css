@@ -27,3 +27,11 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.linha-equipe {
+    cursor: pointer; 
+}
+
+.linha-equipe:hover {
+    cursor: hand;
+}
