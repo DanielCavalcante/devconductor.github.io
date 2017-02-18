@@ -5,7 +5,6 @@
     
 
     <link rel="stylesheet" href="css/bulma.min.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/sorteio.css" />
 </head>
 
@@ -26,9 +25,15 @@
         <div class="columns">
             <div class="column is-half is-offset-one-quarter">
                 <h1 class="title box button has-text-centered" ng-click="sortear()" style="padding-left: 0px">
-                    <span>{{equipeSelecionada}}</span>
+                    <span ng-if="sorteando">Sorteando: {{equipeSelecionada}}</span>
+                    <span ng-if="!sorteando && equipeSelecionada">Equipe Selecionada: <b>{{equipeSelecionada}}</b></span>
+                    <span ng-if="!sorteando && !equipeSelecionada">Clique aqui para selecionar a primeira equipe!</span>
                 </h1>
             </div>
+            <div class="column has-text-right">
+                <input type="submit" class="button" value="&#9851;" ng-click="limpar()" />
+            </div>
+
         </div>
         <div class="columns">
             <div class="column">
@@ -39,13 +44,11 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <!--<th><abbr title="Position">Pos</abbr></th>-->
                                 <th>Equipe</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr ng-repeat="e in equipes">
-                                <!--<th>{{e.id}}</th>-->
+                            <tr ng-repeat="e in equipes" ng-click="escolherEquipe($index)">
                                 <td>{{e.nome}}</td>
                             </tr>
                         </tbody>
@@ -78,7 +81,7 @@
     <footer class="footer">
         <div class="container">
             <div class="content has-text-centered">
-                <div class="al-footer-right">by Squad Inova&ccedil;&atilde;o <span class="heart">&#10084;</span></div>
+                <div class="al-footer-right">by Squad Inova&ccedil;&atilde;o <span class="heart pulse">❤</span></div>
                 <div class="al-footer-main clearfix">
                     <div class="al-copy">CONDUCTOR Tecnologia</div>
                 </div>
